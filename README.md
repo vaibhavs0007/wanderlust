@@ -35,7 +35,11 @@ _I'd love for you to make the most of this project - it's all about learning, he
 3. **Install Required Dependencies**
 
    ```bash
-   npm i
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+    nvm install 21
+    node -v
+    npm -v
+    npm i
    ```
 
 4. **Set up your MongoDB Database**
